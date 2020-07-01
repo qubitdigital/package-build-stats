@@ -54,6 +54,11 @@ function makeWebpackConfig ({ entry, externals, debug }) {
         }
       }),
       new webpack.IgnorePlugin(/^electron$/),
+      new webpack.optimize.UglifyJsPlugin({
+        output: {
+            comments: false
+        }
+      }),
       ...(debug ? [new WriteFilePlugin()] : [])
     ],
     resolve: {
