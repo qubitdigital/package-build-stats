@@ -1,6 +1,6 @@
 {
   "name": "@qutics/package-build-stats",
-  "version": "6.2.4",
+  "version": "6.2.5",
   "author": "Shubham Kanodia <shubham.kanodia10@gmail.com>",
   "repository": "https://github.com/pastelsky/package-build-stats",
   "publishConfig": {
