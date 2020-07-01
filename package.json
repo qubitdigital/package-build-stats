@@ -13,7 +13,8 @@
   },
   "files": [
     "src",
-    "fixtures"
+    "fixtures",
+    "loaders"
   ],
   "main": "src/getPackageStats.js",
   "scripts": {
