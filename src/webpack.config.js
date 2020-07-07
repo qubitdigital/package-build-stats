@@ -18,11 +18,6 @@ function makeWebpackConfig ({ entry, externals, debug }) {
 
   log('external packages %o', externalsRegex)
 
-  const alias = {
-    jquery: '@qubit/jquery',
-    exit_checker: '@qubit/exit-checker'
-  }
-
   return {
     entry: entry,
     profile: false,
@@ -56,7 +51,7 @@ function makeWebpackConfig ({ entry, externals, debug }) {
       new webpack.IgnorePlugin(/^electron$/),
       new webpack.optimize.UglifyJsPlugin({
         output: {
-            comments: false
+          comments: false
         }
       }),
       ...(debug ? [new WriteFilePlugin()] : [])
@@ -65,8 +60,7 @@ function makeWebpackConfig ({ entry, externals, debug }) {
       extensions: ['.js', '.css'],
       modules: ['node_modules'],
       cacheWithContext: false,
-      symlinks: false,
-      alias
+      symlinks: false
     },
     module: {
       loaders: [{
