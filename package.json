@@ -64,7 +64,7 @@
     "mkdir-promise": "^1.0.0",
     "node-fetch": "^2.6.0",
     "node-sass": "^4.13.1",
-    "np": "^6.2.1",
+    "np": "^6.5.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "performance-now": "^2.1.0",
     "pify": "^5.0.0",
