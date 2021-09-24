@@ -72,7 +72,7 @@
     "rimraf": "^3.0.2",
     "sanitize-filename": "^1.6.3",
     "sass-loader": "^8.0.2",
-    "server": "^1.0.27",
+    "server": "^1.0.35",
     "shebang-loader": "^0.0.1",
     "shortid": "^2.2.15",
     "stats-lite": "^2.1.0",
