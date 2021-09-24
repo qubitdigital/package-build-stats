@@ -55,7 +55,7 @@
     "file-loader": "^6.0.0",
     "is-valid-npm-name": "^0.0.5",
     "json-loader": "^0.5.7",
-    "less": "^3.0.0",
+    "less": "^3.13.1",
     "less-loader": "^4.0.0",
     "less-plugin-autoprefix": "^1.5.1",
     "less-plugin-clean-css": "^1.5.1",
